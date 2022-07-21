@@ -1,0 +1,13 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "Mongo": {
+    "ConnectionString": "{mongo_connection_string}",
+    "Database": "{mongo_database}"
+  }
+}

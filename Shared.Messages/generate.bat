@@ -1,0 +1,1 @@
+dotnet mpc -i ".\Shared.Messages.csproj" -o "MessagesGenerated.cs"

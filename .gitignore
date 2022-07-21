@@ -5,3 +5,7 @@ riderModule.iml
 /_ReSharper.Caches/
 
 .idea
+
+Shared.Messages/MessagesGenerated.cs
+
+Service.Backend/appsettings.json
