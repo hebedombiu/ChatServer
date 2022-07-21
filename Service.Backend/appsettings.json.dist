@@ -1,4 +1,11 @@
 {
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "{server_host}"
+      }
+    }
+  },
   "Logging": {
     "LogLevel": {
       "Default": "Information",
@@ -9,5 +16,14 @@
   "Mongo": {
     "ConnectionString": "{mongo_connection_string}",
     "Database": "{mongo_database}"
+  },
+  "Server": {
+    "AppIdentifier": "{server_app_id}",
+    "Port": {server_port}
+  },
+  "Static": {
+    "Colors": [
+      {static_colors}
+    ]
   }
 }
