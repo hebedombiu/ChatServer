@@ -64,6 +64,7 @@ public class ChatService {
                 _id2State[user.UserId] = false;
 
                 foreach (var u in _connection2User.Values) {
+                    if (user.UserId == u.UserId) continue;
                     u.Send(new UserStateNotify {
                         User = new ChatUser {UserId = u.UserId, Name = u.Name, Color = u.Color},
                         IsOnline = false
